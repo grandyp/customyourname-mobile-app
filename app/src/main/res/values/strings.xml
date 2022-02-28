@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">customyourname.id</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gagal_konek">Tidak dapat terhubung ke server</string>
+
+    <array name="data_clipart">
+        <item>@drawable/c_budgie</item>
+        <item>@drawable/c_bulldog</item>
+        <item>@drawable/c_catpot</item>
+        <item>@drawable/c_pigeon</item>
+        <item>@drawable/c_bear</item>
+        <item>@drawable/c_bird</item>
+        <item>@drawable/c_bird2</item>
+        <item>@drawable/c_butterfly</item>
+        <item>@drawable/c_butterfly2</item>
+        <item>@drawable/c_butterfly3</item>
+        <item>@drawable/c_cat</item>
+        <item>@drawable/c_cat2</item>
+        <item>@drawable/c_circle</item>
+        <item>@drawable/c_circle2</item>
+        <item>@drawable/c_clover</item>
+        <item>@drawable/c_clover2</item>
+        <item>@drawable/c_clover3</item>
+        <item>@drawable/c_clover4</item>
+        <item>@drawable/c_cross</item>
+        <item>@drawable/c_cross2</item>
+        <item>@drawable/c_cross3</item>
+        <item>@drawable/c_crown</item>
+        <item>@drawable/c_flower</item>
+        <item>@drawable/c_flower2</item>
+        <item>@drawable/c_heart</item>
+        <item>@drawable/c_heart2</item>
+        <item>@drawable/c_heart3</item>
+        <item>@drawable/c_heart4</item>
+        <item>@drawable/c_heart5</item>
+        <item>@drawable/c_leaf</item>
+        <item>@drawable/c_leaf2</item>
+        <item>@drawable/c_leaf3</item>
+        <item>@drawable/c_moon</item>
+        <item>@drawable/c_moon2</item>
+        <item>@drawable/c_pigeon2</item>
+        <item>@drawable/c_plane</item>
+        <item>@drawable/c_rabbit</item>
+        <item>@drawable/c_rabbit2</item>
+        <item>@drawable/c_rose</item>
+        <item>@drawable/c_rose2</item>
+        <item>@drawable/c_rose3</item>
+        <item>@drawable/c_rose4</item>
+        <item>@drawable/c_square</item>
+        <item>@drawable/c_star</item>
+        <item>@drawable/c_star2</item>
+        <item>@drawable/c_teddy</item>
+        <item>@drawable/c_tulip</item>
+        <item>@drawable/c_world</item>
+        <item>@drawable/c_world2</item>
+
+    </array>
+    <string-array name="nama_clipart">
+        <item>c_budgie</item>
+        <item>c_bulldog</item>
+        <item>c_catpot</item>
+        <item>c_pigeon</item>
+        <item>c_bear</item>
+        <item>c_bird</item>
+        <item>c_bird2</item>
+        <item>c_butterfly</item>
+        <item>c_butterfly2</item>
+        <item>c_butterfly3</item>
+        <item>c_cat</item>
+        <item>c_cat2</item>
+        <item>c_circle</item>
+        <item>c_circle2</item>
+        <item>c_clover</item>
+        <item>c_clover2</item>
+        <item>c_clover3</item>
+        <item>c_clover4</item>
+        <item>c_cross</item>
+        <item>c_cross2</item>
+        <item>c_cross3</item>
+        <item>c_crown</item>
+        <item>c_flower</item>
+        <item>c_flower2</item>
+        <item>c_heart</item>
+        <item>c_heart2</item>
+        <item>c_heart3</item>
+        <item>c_heart4</item>
+        <item>c_heart5</item>
+        <item>c_leaf</item>
+        <item>c_leaf2</item>
+        <item>c_leaf3</item>
+        <item>c_moon</item>
+        <item>c_moon2</item>
+        <item>c_pigeon2</item>
+        <item>c_plane</item>
+        <item>c_rabbit</item>
+        <item>c_rabbit2</item>
+        <item>c_rose</item>
+        <item>c_rose2</item>
+        <item>c_rose3</item>
+        <item>c_rose4</item>
+        <item>c_square</item>
+        <item>c_star</item>
+        <item>c_star2</item>
+        <item>c_teddy</item>
+        <item>c_tulip</item>
+        <item>c_world</item>
+        <item>c_world2</item>
+    </string-array>
+    <string-array name="kategori_clipart">
+        <item>binatang</item>
+        <item>binatang</item>
+        <item>binatang</item>
+        <item>binatang</item>
+        <item>binatang</item>
+        <item>binatang</item>
+        <item>binatang</item>
+        <item>binatang</item>
+        <item>binatang</item>
+        <item>binatang3</item>
+        <item>binatang</item>
+        <item>binatang</item>
+        <item>bentuk</item>
+        <item>bentuk</item>
+        <item>alam</item>
+        <item>alam</item>
+        <item>alam</item>
+        <item>alam</item>
+        <item>kultur</item>
+        <item>kultur</item>
+        <item>kultur</item>
+        <item>bentuk</item>
+        <item>alam</item>
+        <item>alam</item>
+        <item>bentuk</item>
+        <item>bentuk</item>
+        <item>bentuk</item>
+        <item>bentuk</item>
+        <item>bentuk</item>
+        <item>alam</item>
+        <item>alam</item>
+        <item>alam</item>
+        <item>alam</item>
+        <item>alam</item>
+        <item>binatang</item>
+        <item>bentuk</item>
+        <item>binatang</item>
+        <item>binatang</item>
+        <item>alam</item>
+        <item>alam</item>
+        <item>alam</item>
+        <item>alam</item>
+        <item>bentuk</item>
+        <item>bentuk</item>
+        <item>bentuk</item>
+        <item>binatang</item>
+        <item>alam</item>
+        <item>alam</item>
+        <item>alam</item>
+    </string-array>
+    <string-array name="list_kategori_clipart">
+        <item>semua</item>
+        <item>binatang</item>
+        <item>bentuk</item>
+        <item>alam</item>
+        <item>kultur</item>
+    </string-array>
+
+    <string-array name="daftar_font">
+        <item>alfa_slab_one</item>
+        <item>aguafina_script</item>
+        <item>the_humble</item>
+        <item>adelia</item>
+        <item>amarillo</item>
+        <item>ananda_black</item>
+        <item>ananda</item>
+        <item>baby_child</item>
+        <item>backtoblack1</item>
+        <item>backtoblack2</item>
+        <item>bernadette</item>
+        <item>billiondream</item>
+        <item>cottonbutter</item>
+        <item>charlotte</item>
+        <item>caranda</item>
+        <item>hello</item>
+        <item>hellobaby</item>
+        <item>hellovalentina</item>
+        <item>holysthic</item>
+        <item>lighthouse</item>
+        <item>madena</item>
+        <item>magicalfeather</item>
+        <item>memphis</item>
+        <item>michelelisha</item>
+        <item>signatra</item>
+        <item>sinami</item>
+    </string-array>
+
+    <string-array name="daftar_aksesoris">
+        <item>kalung</item>
+        <item>gelang</item>
+        <item>cincin</item>
+        <item>anting</item>
+    </string-array>
+
+    <string-array name="list_kurir">
+        <item>JNE</item>
+        <item>TIKI</item>
+        <item>POS Indonesia</item>
+    </string-array>
+
+    <string-array name="list_status_pesanan">
+        <item>Menunggu konfirmasi</item>
+        <item>Menunggu pembayaran</item>
+        <item>Dibayar</item>
+        <item>Diverifikasi</item>
+        <item>Diproses</item>
+        <item>Dikirim</item>
+        <item>Selesai</item>
+        <item>Dibatalkan</item>
+    </string-array>
+</resources>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ar_aksesoris_kiri"
+        android:layout_width="64dp"
+        android:layout_height="353dp"
+        android:layout_marginStart="28dp"
+        android:layout_weight="1"
+        android:rotation="-10"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kalung_kiri" />
+
+    <ImageView
+        android:id="@+id/ar_aksesoris_kanan"
+        android:layout_width="95dp"
+        android:layout_height="363dp"
+        android:paddingEnd="30dp"
+        android:rotation="6"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/ar_listClipart"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kalung_kanan" />
+
+    <ImageView
+        android:id="@+id/ar_aksesoris_kanan2"
+        android:layout_width="95dp"
+        android:layout_height="353dp"
+        android:layout_marginStart="5dp"
+        android:paddingEnd="30dp"
+        android:rotation="10"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/tvDesainTulisanAR"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kalung_kanan" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ar_listClipart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:rotation="0"
+        android:rotationX="6"
+        android:rotationY="-2"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/ar_aksesoris_kiri"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ar_clip1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_bulldog" />
+
+        <ImageView
+            android:id="@+id/ar_clip2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="28dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_bulldog" />
+
+        <ImageView
+            android:id="@+id/ar_clip3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="52dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_bulldog" />
+
+        <ImageView
+            android:id="@+id/ar_clip4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="80dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_bulldog" />
+
+        <ImageView
+            android:id="@+id/ar_clip5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="105dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_bulldog" />
+
+        <ImageView
+            android:id="@+id/ar_clip6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="128dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_bulldog" />
+
+        <ImageView
+            android:id="@+id/ar_clip7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_bulldog" />
+
+        <ImageView
+            android:id="@+id/ar_clip8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="175dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_bulldog" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvDesainTulisanAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/ar_aksesoris_kiri"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/kalung1sisi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/tvDesainTulisanAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452"
+        app:srcCompat="@drawable/kalung3" />
+
+    <ImageView
+        android:id="@+id/kalung1sisi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/ar_listClipart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472"
+        app:srcCompat="@drawable/kalung3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

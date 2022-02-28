@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@drawable/button_melengkungv3"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvHelp_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Arahkan hp hingga terlihat titik-titik\n2. Tap layar untuk memunculkan aksesoris\n3. Sesuaikan tangan hingga pas dengan aksesoris\n\n(Kamu bisa menggeser posisi aksesorisnya dan mengubah ukurannya dengan mencubit aksesorisnya)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

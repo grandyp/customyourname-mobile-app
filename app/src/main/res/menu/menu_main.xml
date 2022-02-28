@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/menu_desain"
+        android:icon="@drawable/ic_baseline_design_services_24"
+        android:title="Desain" />
+    <item
+        android:id="@+id/menu_cart"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Keranjang" />
+    <item
+        android:id="@+id/menu_info"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Informasi" />
+    <item
+        android:id="@+id/menu_akun"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Akun" />
+</menu>

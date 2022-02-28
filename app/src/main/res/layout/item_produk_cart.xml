@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/gambarProdukCart"
+            android:layout_width="149dp"
+            android:layout_height="144dp"
+            android:scaleType="centerCrop"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvNamaCart"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@id/gambarProdukCart"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            card_view:layout_constraintStart_toEndOf="@+id/gambarProdukCart"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:text="Nama Produk" />
+
+        <TextView
+            android:id="@+id/tvHargaCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            card_view:layout_constraintStart_toEndOf="@+id/gambarProdukCart"
+            card_view:layout_constraintTop_toBottomOf="@+id/tvNamaCart" />
+
+        <Button
+            android:id="@+id/btnHapusCart"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/ic_baseline_delete_24_black"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toEndOf="@+id/gambarProdukCart" />
+
+        <EditText
+            android:id="@+id/editTextJumlahCart"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="000"
+            android:textAlignment="center"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toStartOf="@+id/btnTambahJumlahCart" />
+
+        <Button
+            android:id="@+id/btnKurangJumlahCart"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/ic_baseline_remove_circle_outline_24"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toStartOf="@+id/editTextJumlahCart" />
+
+        <Button
+            android:id="@+id/btnTambahJumlahCart"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/ic_baseline_add_circle_outline_24"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvDetailProdukCart"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            card_view:layout_constraintStart_toEndOf="@+id/gambarProdukCart"
+            card_view:layout_constraintTop_toBottomOf="@+id/tvHargaCart" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

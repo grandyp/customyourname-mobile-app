@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/gelang1"
+        android:layout_width="304dp"
+        android:layout_height="275dp"
+        android:layout_marginTop="32dp"
+        android:rotation="-180"
+        android:rotationX="0"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gelang" />
+
+    <TextView
+        android:id="@+id/tvTulisanArTangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:rotation="0"
+        android:rotationX="40"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ar_listClipart_gelang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="138dp"
+        android:rotation="0"
+        android:rotationX="40"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ar_clipGelang1"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_catpot" />
+
+        <ImageView
+            android:id="@+id/ar_clipGelang2"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_catpot" />
+
+        <ImageView
+            android:id="@+id/ar_clipGelang3"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_catpot" />
+
+        <ImageView
+            android:id="@+id/ar_clipGelang4"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_catpot" />
+
+        <ImageView
+            android:id="@+id/ar_clipGelang5"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="58dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_catpot" />
+
+        <ImageView
+            android:id="@+id/ar_clipGelang6"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="71dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_catpot" />
+
+        <ImageView
+            android:id="@+id/ar_clipGelang7"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="84dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_catpot" />
+
+        <ImageView
+            android:id="@+id/ar_clipGelang8"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="98dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/c_catpot" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/gelangkiri1"
+        android:layout_width="27dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="122dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/ar_listClipart_gelang"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rantaikiri" />
+
+    <ImageView
+        android:id="@+id/gelangkiri"
+        android:layout_width="27dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="118dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/tvTulisanArTangan"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rantaikiri" />
+
+    <ImageView
+        android:id="@+id/gelangkanan1"
+        android:layout_width="24dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="122dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/ar_listClipart_gelang"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rantaikanan" />
+
+    <ImageView
+        android:id="@+id/gelangkanan"
+        android:layout_width="24dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="118dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/tvTulisanArTangan"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rantaikanan" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
